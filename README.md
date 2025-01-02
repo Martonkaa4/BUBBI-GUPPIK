@@ -1,2 +1,130 @@
-# BUBBI-GUPPIK
-Csatlakozz a discord szerverhez
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUBBI GUPPIK</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3a3f58, #23252f);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background: #5865F2;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .category {
+            background: #40444b;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .category h2 {
+            font-size: 1.5rem;
+            margin: 0 0 10px;
+        }
+
+        .category p {
+            font-size: 1rem;
+        }
+
+        .link-section {
+            text-align: center;
+            padding: 50px;
+            background: #23252f;
+            margin-top: 50px;
+        }
+
+        .link-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .link-section a {
+            display: inline-block;
+            background: #5865F2;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .link-section a:hover {
+            background: #4752C4;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1f22;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BUBBI GUPPIK💦</h1>
+        <p>Csatlakozz életed legjobb discord szerveréhez!</p>
+    </header>
+
+    <div class="categories">
+        <div class="category">
+            <h2>🎮 Gaming</h2>
+            <p>A legnépszerűbb gaming közösségek, ahol mindig találsz játékostársakat.</p>
+        </div>
+        <div class="category">
+            <h2>💬 Social</h2>
+            <p>Beszélgetős, barátkozós Discord szerverek, ahol megismerhetsz új embereket.</p>
+        </div>
+        <div class="category">
+            <h2>🎨 Hobby</h2>
+            <p>Oszd meg szenvedélyeid másokkal: művészet, zene, technológia és még sok más!</p>
+        </div>
+    </div>
+
+    <div class="link-section">
+        <h2>Csatlakozz most!</h2>
+        <a href="https://discord.gg/yznhhgyG" target="_blank">Discord Link</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Discord Hirdető. Minden jog fenntartva.
+    </footer>
+</body>
+</html>
